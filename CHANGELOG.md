@@ -1,3 +1,15 @@
+# v0.0.3 (Sun Sep 03 2023)
+
+#### ⚠️ Pushed to `main`
+
+- correct title/output ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.2 (Sun Sep 03 2023)
 
 #### ⚠️ Pushed to `main`
