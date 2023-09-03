@@ -1,3 +1,15 @@
+# v0.0.2 (Sun Sep 03 2023)
+
+#### ⚠️ Pushed to `main`
+
+- ansible vault ui ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.1 (Sun Sep 03 2023)
 
 :tada: This release contains work from a new contributor! :tada:
