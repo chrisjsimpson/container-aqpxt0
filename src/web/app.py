@@ -60,7 +60,5 @@ def index():
         # Deleting the temporary password file
         subprocess.run(["rm", temp_file_path])
 
-        return "Received data: {}\nEncrypted result: <pre>{}</pre>".format(
-            secret_name, result.stdout
-        )
+        return "Encrypted result: <pre>{}</pre>".format(result.stdout)
     return render_template("index.html")
