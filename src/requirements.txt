@@ -2,6 +2,8 @@ Flask
 SQLAlchemy
 gunicorn
 
+ansible
+
 PyMySQL
 coloredlogs
 python-dotenv

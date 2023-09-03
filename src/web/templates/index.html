@@ -6,5 +6,31 @@
 {% endblock header %}
 
 {% block content %}
-    Content
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Ansible Vault GUI For Encryption</h2>
+        <p>How do I make an ansible vault secret?</p>
+        <form action="/" method="POST">
+            <div class="form-group">
+                <label for="secretName">Name of Secret</label>
+                <input type="text" class="form-control" id="secretName" name="secretName" placeholder="Enter name of secret" required>
+            </div>
+            <div class="form-group">
+                <label for="vaultPassword">Vault Password</label>
+                <input type="password" class="form-control" id="vaultPassword" name="vaultPassword" placeholder="Enter vault password" required>
+            </div>
+            <div class="form-group">
+                <label for="secretValue">Secret Value</label>
+                <textarea class="form-control" id="secretValue" name="secretValue" rows="3" placeholder="Enter secret value" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Optional Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 {% endblock %}
